@@ -762,12 +762,12 @@ video {
   height: 26px;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-\[400px\] {
   height: 400px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-14 {
@@ -915,6 +915,10 @@ video {
   border-radius: 100px;
 }
 
+.rounded-\[13px\] {
+  border-radius: 13px;
+}
+
 .rounded-\[18px\] {
   border-radius: 18px;
 }
@@ -937,10 +941,6 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded-\[13px\] {
-  border-radius: 13px;
 }
 
 .border {
@@ -1011,6 +1011,10 @@ video {
      object-fit: cover;
 }
 
+.\!p-0 {
+  padding: 0px !important;
+}
+
 .\!p-0\.5 {
   padding: 0.125rem !important;
 }
@@ -1029,10 +1033,6 @@ video {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.\!p-0 {
-  padding: 0px !important;
 }
 
 .px-2 {
@@ -1885,6 +1885,11 @@ header ul li a.active,header ul li a:hover{
     padding: 1.75rem;
   }
 
+  .sm\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .sm\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -2007,12 +2012,13 @@ header ul li a.active,header ul li a:hover{
     display: block;
   }
 
-  .min-\[992px\]\:hidden {
-    display: none;
-  }
-
   .min-\[992px\]\:\!hidden {
     display: none !important;
+  }
+
+  .min-\[992px\]\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
