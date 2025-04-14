@@ -287,7 +287,7 @@ header ul li a.active,header ul li a:hover{
   overflow: hidden;
 }
 #carousel > div{
-  @apply relative rounded-[13px] bg-gradient-2 !p-0.5
+  @apply relative rounded-[13px] bg-gradient-2 !p-0.5;
 }
 #carousel div {
   position: absolute;

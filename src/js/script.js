@@ -13,7 +13,20 @@ overlay.addEventListener('click', function () {
   mobileMenu.classList.remove('active');
 })
 // swiper
-
+var popular = new Swiper(".popular", {
+  slidesPerView: 1.3,
+  spaceBetween: 26,
+  centeredSlides: true,   // فعال کردن حالت وسط چین
+  breakpoints: {
+    576: {
+      slidesPerView: 2,
+    },
+  },
+  autoplay: {
+    delay: 2000,
+  },
+  loop: true,
+});
 var testimonials = new Swiper(".testimonials", {
   slidesPerView: 1,
   spaceBetween: 26,

@@ -766,6 +766,10 @@ video {
   height: 100%;
 }
 
+.h-\[400px\] {
+  height: 400px;
+}
+
 .w-14 {
   width: 3.5rem;
 }
@@ -935,6 +939,10 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-\[13px\] {
+  border-radius: 13px;
+}
+
 .border {
   border-width: 1px;
 }
@@ -1021,6 +1029,10 @@ video {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.\!p-0 {
+  padding: 0px !important;
 }
 
 .px-2 {
@@ -1987,6 +1999,20 @@ header ul li a.active,header ul li a:hover{
   .min-\[890px\]\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .min-\[992px\]\:block {
+    display: block;
+  }
+
+  .min-\[992px\]\:hidden {
+    display: none;
+  }
+
+  .min-\[992px\]\:\!hidden {
+    display: none !important;
   }
 }
 
