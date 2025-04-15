@@ -1740,11 +1740,6 @@ header ul li a.active,header ul li a:hover{
   transform: translateY(0px) translateX(-50%);
 }
 
-#carousel div.selected p {
-  opacity: 0;
-  transition: all .4s;
-}
-
 #carousel div.next {
   z-index: 5;
   font-size: 18px;
@@ -1883,11 +1878,6 @@ header ul li a.active,header ul li a:hover{
 
   .sm\:p-7 {
     padding: 1.75rem;
-  }
-
-  .sm\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   .sm\:py-4 {

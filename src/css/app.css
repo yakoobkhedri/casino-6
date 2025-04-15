@@ -340,10 +340,6 @@ header ul li a.active,header ul li a:hover{
   left: 50%;
   transform: translateY(0px) translateX(-50%);
 }
-#carousel div.selected p {
-  opacity: 0;
-  transition: all .4s;
-}
 #carousel div.next {
   z-index: 5;
   font-size: 18px;

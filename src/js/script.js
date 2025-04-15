@@ -24,6 +24,7 @@ var popular = new Swiper(".popular", {
   },
   autoplay: {
     delay: 2000,
+    disableOnInteraction: false,
   },
   loop: true,
 });
@@ -44,6 +45,7 @@ var testimonials = new Swiper(".testimonials", {
   },
   autoplay: {
     delay: 2000,
+    disableOnInteraction: false,
   },
   loop: true,
   pagination: {
